@@ -265,6 +265,7 @@ footer iframe {
 }
 
 footer p {
+  color: white;
   width: 100%; /* Make copyright text span the full width */
   text-align: left; /* Center align copyright text */
   margin-top: 20px; /* Add some margin above copyright text */
@@ -361,10 +362,5 @@ footer ul {
     }
   }
    
-    /* main {
-      margin:0 auto;
-      width:60vw;
-     }  */
-
 
 
