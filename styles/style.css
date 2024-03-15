@@ -215,6 +215,7 @@ nav li a:hover{
 p{
     font-weight: 200;
     /* font-size: small;  */
+    color: black;
 }
 .fa {
     padding: 20px;
@@ -265,14 +266,17 @@ footer iframe {
 
 footer p {
   width: 100%; /* Make copyright text span the full width */
-  text-align: center; /* Center align copyright text */
+  text-align: left; /* Center align copyright text */
   margin-top: 20px; /* Add some margin above copyright text */
 }
 
 footer ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+}
+.copyright{
+  text-align: center;
 }
 .Information{
 
@@ -307,6 +311,21 @@ footer ul {
       grid-template-columns: 2fr;
   
     }
+    .card_header{
+      flex-direction: column;
+    }
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  nav{
+    align-items: flex-start;
+  }
+  footer p{
+    text-align:left;
+  }
+
 
 }
 @media screen and (max-width: 1000px) {
