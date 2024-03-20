@@ -38,7 +38,6 @@ margin: auto;
     background-image:url(bg-1\ copy.jpg);
     opacity: 80%;
     background-color: rgba(0,0,0,0.5);
-    max-width:2000px;
     color:white;
     padding-top:50px;
     text-align: center;
@@ -53,7 +52,6 @@ margin: auto;
 .container{
     background-color:#DFAE9F;
     border: #996ed9;
-    max-width:2000px;
     padding:20px;
     } 
 
@@ -71,7 +69,6 @@ margin: auto;
 }
 
 .remove-assignment-content-1{
-        max-width:2000px;
         margin:50px auto;
         padding:20px;
         /* display:grid;
